@@ -1,15 +1,16 @@
-#[TeleSurena](https://telegram.me/SurenaTeam)
-
-#کلون یا هرگونه کپی برداری بدون ذکر منبع ممنوع و حلال نمی باشد
-
-####اولین ربات کاملا فارسی برای سوپرگروه
-####با امکانات فوق العاده
-####منبع و پایه ربات : TeleSeed 
-
-# نصب
-
-####برای ران کردن ابتدا به سایت codeanywhere.com بروید و یا یک سرور مجازی تهیه کنید و بعد کد های زیر را در سرور خود وارد کنید
-
+```sh
+wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+tar zxpf luarocks-2.2.2.tar.gz
+cd luarocks-2.2.2
+./configure; sudo make bootstrap
+sudo luarocks install luasocket
+sudo luarocks install luasec
+sudo luarocks install redis-lua
+sudo luarocks install lua-term
+sudo luarocks install serpent
+sudo luarocks install dkjson
+cd ..
+```
 ```sh
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 sudo apt-get update
